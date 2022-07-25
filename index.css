@@ -1,0 +1,42 @@
+body{
+    margin:0;
+    text-align: center;
+    background-color:whitesmoke;
+}
+#loc{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+#aBtn{
+    border: none;
+    height: 40px;
+    width:280px;
+    background-color: antiquewhite;
+}
+#bBtn{
+    border: none;
+    height: 40px;
+    width:280px;
+    background-color: antiquewhite;
+}
+#aBtn:hover{
+    background-color:rgb(250, 166, 39)
+}
+#bBtn:hover{
+    background-color:rgb(243, 158, 32)
+}
+#container{
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+#info{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+}
+#instructions{
+    font-weight: 300;
+    font-style:normal;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
