@@ -48,7 +48,7 @@ function getDistance(latlon1,latlon2){
     const xyz1=latlonToxyz(latlon1,r);
     const xyz2=latlonToxyz(latlon2,r);
     const h=herons(xyz1,xyz2);
-    return h;
+    return h.toFixed(3);
 }
 function latlonToxyz(latlon,r){
     const xyz={x:0,y:0,z:0}
